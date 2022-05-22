@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
+}
+   .block1 {
+       display: none;
+   }
+   .block2 {
+       visibility: hidden;
+   }
+   .block3 {
+       visibility: visible;
+   }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="block1">Not Displayed</div>
+      <div class="block2">Hiddnen</div>
+      <div class="block3">Visible</div>
+    </div>
+  </body>
+</html>
